@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getTasks } from "@/lib/store/features/task/taskApiCall";
-import TaskBox from "./TaskBox";
-import EditTask from "./EditTask";
-import SortCategory from "./SortCategory";
+import TaskBox from "./taskBox";
+import EditTask from "./tditTask";
+import SortCategory from ".tSortCategory";
 
 function Tasks(): JSX.Element {
   // State for sorting tasks by category
