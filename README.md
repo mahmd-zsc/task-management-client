@@ -1,63 +1,67 @@
-## Task Management Client
+# Task Management Client App ( ✔Tasks )
 
-This document provides an overview of the frontend for our web application, including the framework used, features, and how to run it locally.
+A task management application that allows users to organize and track their tasks.
 
-## Table of Contents
+## Getting Started
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Development Server](#development-server)
-- [Building for Production](#building-for-production)
-- [Contributing](#contributing)
-- [License](#license)
+To get started using this app locally, follow these steps:
 
-## Introduction
+First, clone the repository:
 
-The frontend is a single-page application (SPA) built to interact with the backend API. It provides a user-friendly interface for managing tasks, including creating, viewing, editing, and deleting them.
+```bash
+git clone https://github.com/mahmd-zsc/task-management-client.git
+```
+
+Second, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Third, run the app
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Features
 
-- User login and registration
-- Task list with filtering and sorting options
-- Task creation with title, description, and due date
-- Task editing for modifying details
-- Task deletion
-- User interface for managing tasks
+1. Task CRUD Operations, meaning you can create, read, update, and delete tasks.
+2. Authentication, allowing you to sign in, sign up, and log out.
+3. Responsive Design.
+4. Ability to mark tasks as completed.
+5. Task filtering based on their category.
 
-## Technologies Used
+## Technologies & Their Versions
 
-- **React**: JavaScript library for building user interfaces
-- **Redux (optional):** State management library for complex applications
-- **Axios**: Promise-based HTTP client for making API requests
-- **React Router**: Routing library for handling navigation within the SPA
-- **Material UI (optional):** UI component library for a consistent look and feel
+  - **axios**: '^1.6.8'
+-  **"next**: '14.2.3'
+-  **"react**: '^18'
+-  **"react-dom**: '^18'
+-  **"react-icons**: '^5.2.1'
+-  **"react-redux**: '^9.1.2'
+-  **"react-toastify**: '^10.0.5'
+- **express-async-handler**: '^1.2.0'
+- **helmet**: '^7.1.0'
+- **joi**: '^17.13.1'
+- **jsonwebtoken**: '^9.0.2'
+- **mongoose**: '^8.3.4'
+- **nodemon**: '^3.1.0'
+- **puppeteer**: '^22.8.1'
+- **selenium-webdriver**: '^4.20.0'
 
-## Setup
+## Database Connection
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
+To Connect to the MongoDB Use the following MongoDB URI:
 
-## Dependencies
-
-Here are the versions of the packages used in this project:
-
-- **axios**: ^1.6.8
--  **"next**: 14.2.3
--  **"react**: ^18
--  **"react-dom**: ^18
--  **"react-icons**: ^5.2.1
--  **"react-redux**: ^9.1.2
--  **"react-toastify**: ^10.0.5
-- **express-async-handler**: ^1.2.0
-- **helmet**: ^7.1.0
-- **joi**: ^17.13.1
-- **jsonwebtoken**: ^9.0.2
-- **mongoose**: ^8.3.4
-- **nodemon**: ^3.1.0
-- **puppeteer**: ^22.8.1
-- **selenium-webdriver**: ^4.20.0
+> <p>mongodb+srv://moma8607914:UxlqIMPUQclSk6Cd@cluster0.h34xv39.mongodb.net/store?retryWrites=true&w=majority&appName=Cluster0</p>
