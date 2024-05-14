@@ -47,12 +47,12 @@ The frontend is a single-page application (SPA) built to interact with the backe
 Here are the versions of the packages used in this project:
 
 - **axios**: ^1.6.8
-  **"next**: 14.2.3
-  **"react**: ^18
-  **"react-dom**: ^18
-  **"react-icons**: ^5.2.1
-  **"react-redux**: ^9.1.2
-  **"react-toastify**: ^10.0.5
+-  **"next**: 14.2.3
+-  **"react**: ^18
+-  **"react-dom**: ^18
+-  **"react-icons**: ^5.2.1
+-  **"react-redux**: ^9.1.2
+-  **"react-toastify**: ^10.0.5
 - **express-async-handler**: ^1.2.0
 - **helmet**: ^7.1.0
 - **joi**: ^17.13.1
