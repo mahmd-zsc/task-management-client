@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Task Management Client
 
-## Getting Started
+This document provides an overview of the frontend for our web application, including the framework used, features, and how to run it locally.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Development Server](#development-server)
+- [Building for Production](#building-for-production)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The frontend is a single-page application (SPA) built to interact with the backend API. It provides a user-friendly interface for managing tasks, including creating, viewing, editing, and deleting them.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- User login and registration
+- Task list with filtering and sorting options
+- Task creation with title, description, and due date
+- Task editing for modifying details
+- Task deletion
+- User interface for managing tasks
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **React**: JavaScript library for building user interfaces
+- **Redux (optional):** State management library for complex applications
+- **Axios**: Promise-based HTTP client for making API requests
+- **React Router**: Routing library for handling navigation within the SPA
+- **Material UI (optional):** UI component library for a consistent look and feel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Setup
 
-## Deploy on Vercel
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Here are the versions of the packages used in this project:
+
+- **axios**: ^1.6.8
+  **"next**: 14.2.3
+  **"react**: ^18
+  **"react-dom**: ^18
+  **"react-icons**: ^5.2.1
+  **"react-redux**: ^9.1.2
+  **"react-toastify**: ^10.0.5
+- **express-async-handler**: ^1.2.0
+- **helmet**: ^7.1.0
+- **joi**: ^17.13.1
+- **jsonwebtoken**: ^9.0.2
+- **mongoose**: ^8.3.4
+- **nodemon**: ^3.1.0
+- **puppeteer**: ^22.8.1
+- **selenium-webdriver**: ^4.20.0
